@@ -1,11 +1,13 @@
 # pyIRC
-pyIRC is a userfriendly library for incorporating a very rudimentary ![Internet Relay Chat](https://sv.wikipedia.org/wiki/Internet_Relay_Chat) into any python application.
+pyIRC is a userfriendly library for incorporating a very rudimentary ![Internet Relay Chat](https://sv.wikipedia.org/wiki/Internet_Relay_Chat) into any python application. 
+
+# Examples
 
 _Server setup Ex_:
 ```
 >>> import pyIRC
 >>> server = pyIRC.Setup(6667)
-'Server setup successfull'
+1
 >>> server.StartListener()
 'Listening on port 10.10.10.10:6667'
 ```
@@ -14,7 +16,7 @@ _Client setup Ex_:
 >>> import pyIRC
 >>> client = pyIRC.Client()
 >>> client.connect("TestUsername","10.10.10.10",6667)
-'Connected to 10.10.10.10:6667'
+1
 >>> print(client.get())
 'Server: Hello TestUsername!'
 >>> client.send("Testing testiliy test")
