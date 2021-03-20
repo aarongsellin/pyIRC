@@ -5,6 +5,22 @@ pyIRC is a _userfriendly_ TCP client and server for creating your own internet r
 * Easy setup and customizablity.
 * Both TCP and HTTP protocol.
 
+pyIRC is easy to use, _server setup Ex_:
+```
+>>> import pyIRC
+>>> server = pyIRC.SimpleSetup(6667)
+'Server setup successfull'
+>>> server.StartListener()
+'Listening on port 10.10.10.10:6667'
+```
+_client setup Ex_:
+```
+>>> import pyIRC
+>>> client = pyIRC.SimpleClient()
+>>> client.connect("10.10.10.10",6667)
+'Connected to 10.10.10.10:6667'
+```
+
 # Installing
 Download with ![git](https://git-scm.com/).
 
