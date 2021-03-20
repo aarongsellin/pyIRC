@@ -1,14 +1,14 @@
-### pyIRC
+# pyIRC
 pyIRC is a userfriendly library for incorporating a very rudimentary ![Internet Relay Chat](https://sv.wikipedia.org/wiki/Internet_Relay_Chat) into any python application. Works with Python3 and above. 
 
-# Installing
+## Installing
 Download with ![git](https://git-scm.com/).
 
 ```$ git clone https://github.com/mrikea4real/pyIRC```
 
 In the future you will be able to install pyIRC with ![pip](https://pip.pypa.io/en/stable/).
 
-# Examples
+## Examples
 
 _Server setup Ex_:
 ```
@@ -30,7 +30,7 @@ _Client setup Ex_:
 1
 ```
 
-# Documentation
+## Documentation
 __Server Side__
 
 ```Setup(port)``` - Setup server class (Returns server class)
@@ -54,8 +54,8 @@ __Client Side__
 
 ```ClientClass.Close``` - Close connection to server.
 
-# Contributing
-I would be more than happy to accpet contributions.
+## Contributing
+I would be more than happy to accpet contributions. These can come in the form of bug reports, feature requests and pure code!
 
-# Maintainers
+## Maintainers
 * @mrikea4real (Aaron Gotthardsson)
