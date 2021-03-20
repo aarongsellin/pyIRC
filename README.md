@@ -1,4 +1,4 @@
-## pyIRC
+### pyIRC
 pyIRC is a userfriendly library for incorporating a very rudimentary ![Internet Relay Chat](https://sv.wikipedia.org/wiki/Internet_Relay_Chat) into any python application. Works with Python3 and above. 
 
 # Installing
