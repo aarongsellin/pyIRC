@@ -31,20 +31,20 @@ In the future you will be able to install pyIRC with ![pip](https://pip.pypa.io/
 # Documentation
 __Server Side__
 
-```SimpleSetup(port)``` - Setup server class
+```Setup(port)``` - Setup server class (Returns server class)
 
 ```ServerClass.StartListener()``` - Set the server to listen for incoming connections and data
 
 ```ServerClass.StopSistener()``` - Stop the listener. (Thread can be resumed by running the command listed above)
 
-```ServerClass.Close()``` - Close the server and shut It down safely.
+```ServerClass.Close()``` - Close the server and shut It down safely. (Kicks all clients and deletes server object)
 
 
 __Client Side__
 
-```SimpleClient()``` - Setup client class
+```Client()``` - Setup client class (Returns client class)
 
-```ClientClass.Connect(UserAlias,IP,PORT)``` - Connect to server with TCP Protocol.
+```ClientClass.Connect(UserAlias,IP,PORT)``` - Connect to server.
 
 ```ClientClass.Get()``` - Get data from the server. (Note that this function will delay until It gets data from the server)
 
