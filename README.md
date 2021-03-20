@@ -30,6 +30,7 @@ In the future you will be able to install pyIRC with ![pip](https://pip.pypa.io/
 
 # Documentation
 __Server Side__
+
 ```SimpleSetup(port)``` - Setup server class
 
 ```ServerClass.StartListener()``` - Set the server to listen for incoming connections and data
@@ -38,7 +39,9 @@ __Server Side__
 
 ```ServerClass.Close()``` - Close the server and shut It down safely.
 
+
 __Client Side__
+
 ```SimpleClient()``` - Setup client class
 
 ```ClientClass.Connect(UserAlias,IP,PORT)``` - Connect to server with TCP Protocol.
