@@ -1,9 +1,9 @@
 # pyIRC
 pyIRC is a _userfriendly_ TCP client and server for creating your own internet relay chat system.
 
-* End to end encryption.
+* End to end encryption using AES and RSA.
 * Easy setup and customizablity.
-* Both TCP and HTTP protocol.
+* TCP Networking protocol
 
 pyIRC is easy to use, _server setup Ex_:
 ```
