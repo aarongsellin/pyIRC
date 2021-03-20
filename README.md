@@ -4,7 +4,7 @@ pyIRC is a _userfriendly_ TCP client and server for creating your own internet r
 _Server setup Ex_:
 ```
 >>> import pyIRC
->>> server = pyIRC.SimpleSetup(6667)
+>>> server = pyIRC.Setup(6667)
 'Server setup successfull'
 >>> server.StartListener()
 'Listening on port 10.10.10.10:6667'
@@ -12,7 +12,7 @@ _Server setup Ex_:
 _Client setup Ex_:
 ```
 >>> import pyIRC
->>> client = pyIRC.SimpleClient()
+>>> client = pyIRC.Client()
 >>> client.connect("TestUsername","10.10.10.10",6667)
 'Connected to 10.10.10.10:6667'
 >>> print(client.get())
