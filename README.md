@@ -55,7 +55,7 @@ __Client Side__
 ```ClientClass.Close``` - Close connection to server.
 
 # Contributing
-I happily accpet contributions. They can come in the form of bug fixes,  Please send me an email or add me on discord _Mr Ikea#6576_.
+I would be more than happy to accpet contributions.
 
 # Maintainers
 * @mrikea4real (Aaron Gotthardsson)
